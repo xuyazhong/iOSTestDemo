@@ -25,6 +25,7 @@
     LeftViewController *left = [[LeftViewController alloc]init];
     RightViewController *right = [[RightViewController alloc]init];
     
+    
     IIViewDeckController *view = [[IIViewDeckController alloc]initWithCenterViewController:nvc leftViewController:left rightViewController:right];
     
     view.rightSize = 150;
